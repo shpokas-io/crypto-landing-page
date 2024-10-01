@@ -7,13 +7,13 @@
 
 body {
   color: #fff;
-  background-color: #1b004e;
 }
 
 .navigation_menu {
+  background-color: #1b004e;
   justify-content: space-between;
   align-items: center;
-  margin: 2.63188rem 1rem;
+  padding: 2.63188rem 1rem;
   display: flex;
 }
 
@@ -40,7 +40,8 @@ body {
 }
 
 .hero_section {
-  margin: 0 1rem;
+  background-color: #1b004e;
+  padding: 0 1rem;
 }
 
 .hero_section #hero-heading-text {
@@ -64,7 +65,7 @@ body {
   border: none;
   border-radius: 50px;
   margin: 1.25rem auto 50px;
-  padding: 7px 14px;
+  padding: .4375rem .875rem;
   font-size: .875rem;
   font-weight: 500;
   display: block;
@@ -73,14 +74,14 @@ body {
 .hero_section #hero-crypto-prices-text {
   text-align: center;
   color: #fff;
-  margin-bottom: 30px;
+  padding-bottom: 1.875rem;
   font-size: 1.25rem;
   font-weight: bold;
 }
 
 .hero_table {
   flex-direction: column;
-  margin-bottom: 50px;
+  padding-bottom: 3.125rem;
   display: flex;
 }
 

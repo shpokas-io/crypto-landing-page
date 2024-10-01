@@ -5860,7 +5860,7 @@
 110/home/shpokas/Programming/Personal_bigger_projects/Cryptous-landing-page/node_modules/is-arrayish/package.json1727760336133933865 0
 143/home/shpokas/Programming/Personal_bigger_projects/Cryptous-landing-page/node_modules/csso/node_modules/css-tree/cjs/syntax/node/MediaQuery.cjs1727760336585944859 0
 109/home/shpokas/Programming/Personal_bigger_projects/Cryptous-landing-page/node_modules/is-arrayish/.travis.yml1727760336248936662 0
-93/home/shpokas/Programming/Personal_bigger_projects/Cryptous-landing-page/src/styles/main.scss1727776451212537546 0
+93/home/shpokas/Programming/Personal_bigger_projects/Cryptous-landing-page/src/styles/main.scss1727776777141458451 0
 155/home/shpokas/Programming/Personal_bigger_projects/Cryptous-landing-page/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/node/Ratio.js1727760336668946878 0
 133/home/shpokas/Programming/Personal_bigger_projects/Cryptous-landing-page/node_modules/@swc/helpers/esm/_class_apply_descriptor_set.js1727760336902952569 0
 111/home/shpokas/Programming/Personal_bigger_projects/Cryptous-landing-page/node_modules/is-arrayish/.editorconfig1727760336236936370 0

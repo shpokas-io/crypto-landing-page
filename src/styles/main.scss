@@ -9,16 +9,16 @@
 }
 
 body {
-  background-color: $color_background;
   color: $color_white;
 }
 
 //NAVIGATION
 .navigation_menu {
-  margin: 2.631875rem 1rem;
+  padding: 2.631875rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: $color_background;
 }
 .logo_container {
   display: flex;
@@ -43,7 +43,8 @@ body {
 
 //HERO SECTION
 .hero_section {
-  margin: 0 1rem;
+  padding: 0 1rem;
+  background-color: $color_background;
   #hero-heading-text {
     font-size: $font_size-h1-mobile;
     color: $color_white;
@@ -62,7 +63,7 @@ body {
     background-color: $color_buttons-borders-hover;
     font-weight: $font_weight-medium;
     font-size: $font_size-body-mobile;
-    padding: 7px 14px;
+    padding: 0.4375rem 0.875rem;
     border-radius: 50px;
     border: none;
     margin: 1.25rem auto 50px;
@@ -73,7 +74,7 @@ body {
     font-weight: $font_weight-bold;
     text-align: center;
     color: white;
-    margin-bottom: 30px;
+    padding-bottom: 1.875rem;
   }
 }
 
@@ -81,7 +82,7 @@ body {
 .hero_table {
   display: flex;
   flex-direction: column;
-  margin-bottom: 50px;
+  padding-bottom: 3.125rem;
 
   .table-text {
     color: white;
