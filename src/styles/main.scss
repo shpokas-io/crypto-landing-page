@@ -1,4 +1,19 @@
-$primary-color: red;
+//VARIABLES
+//COLOR
+$color_white: #ffffff;
+$color_black: #171717;
+$color_paragraph: #4f4f4f;
+$color_buttons-borders-hover: #eb5757;
+$color_buttons-hover-darker: #ae3c3c;
+$color_buttons-download: #d7c2ff;
+$color_gradient-linear: linear-gradient(135deg, #4e0062, #220076);
+$color_background: #1b004e;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
 
 body {
   background-color: $primary-color;
