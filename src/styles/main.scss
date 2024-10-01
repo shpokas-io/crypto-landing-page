@@ -1,4 +1,4 @@
-@import "variables";
+@import "./variables";
 
 * {
   margin: 0;
@@ -8,5 +8,5 @@
 }
 
 body {
-  background-color: $primary-color;
+  // background-color: $color_background;
 }
