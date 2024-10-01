@@ -131,4 +131,44 @@ body {
     font-size: $font_size-h2-mobile;
     padding-bottom: 1.875rem;
   }
+  .card-icon {
+    width: 65px;
+    height: 70px;
+    margin-bottom: 30px;
+  }
+  .card-title-text {
+    font-size: $font_size-h3-mobile;
+    font-weight: $font_weight-bold;
+    font-family: $font_family-inter;
+    margin-bottom: 20px;
+  }
+  .card-description {
+    margin-bottom: 50px;
+    font-size: $font_size-body-mobile;
+    line-height: 2;
+  }
+}
+
+//THIRD SECTION
+
+.third-section {
+  background-color: $color_background;
+  padding: 3.125rem 1rem;
+  text-align: center;
+  .third-section-title {
+    font-size: $font_size-h2-mobile;
+    font-weight: $font_weight-bold;
+    font-family: $font_family-poppins;
+    margin-bottom: 0.625rem;
+  }
+  .third-section-description {
+    font-size: $font_size-body-mobile;
+    font-family: $font_family-inter;
+    margin-bottom: 30px;
+  }
+  .phone-img {
+    width: 202px;
+    height: 215px;
+    margin-bottom: 30px;
+  }
 }
