@@ -1,5 +1,6 @@
 @import "./variables";
 
+//GLOBAL
 * {
   margin: 0;
   padding: 0;
@@ -8,5 +9,32 @@
 }
 
 body {
-  // background-color: $color_background;
+  background-color: $color_background;
+}
+
+//NAVIGATION
+.navigation_menu {
+  margin: 2.631875rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo_container {
+  display: flex;
+  align-items: center;
+}
+
+#logo_container-logo-image {
+  width: 26px;
+  height: 30px;
+}
+#burger-menu {
+  width: 25px;
+  height: 12.64px;
+}
+
+#logo-text {
+  color: $color_white;
+  font-family: $font_family-poppins;
+  font-size: $font_size-logo-mobile;
 }
