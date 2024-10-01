@@ -10,6 +10,7 @@
 
 body {
   background-color: $color_background;
+  color: $color_white;
 }
 
 //NAVIGATION
@@ -37,4 +38,104 @@ body {
   color: $color_white;
   font-family: $font_family-poppins;
   font-size: $font_size-logo-mobile;
+  font-weight: $font_weight-bold;
+}
+
+//HERO SECTION
+.hero_section {
+  margin: 0 1rem;
+  #hero-heading-text {
+    font-size: $font_size-h1-mobile;
+    color: $color_white;
+    text-align: center;
+    margin-bottom: 0.875rem;
+  }
+  #her-paragraph-text {
+    font-size: $font_size-p-mobile;
+    font-family: $font_family-inter;
+    font-weight: $font_weight-body;
+    color: $color_white;
+    text-align: center;
+  }
+  #whitelist-button {
+    color: $color_white;
+    background-color: $color_buttons-borders-hover;
+    font-weight: $font_weight-medium;
+    font-size: $font_size-body-mobile;
+    padding: 7px 14px;
+    border-radius: 50px;
+    border: none;
+    margin: 1.25rem auto 50px;
+    display: block;
+  }
+  #hero-crypto-prices-text {
+    font-size: $font_size-h2-mobile;
+    font-weight: $font_weight-bold;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+  }
+}
+
+//HERO-TABLE
+.hero_table {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+
+  .table-text {
+    color: white;
+    font-size: $font_size-body-mobile;
+    font-family: $font_family-inter;
+    font-weight: $font_weight-medium;
+  }
+  .name-volume-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .margin-bottom {
+    margin-bottom: 20px;
+  }
+  hr {
+    margin-bottom: 20px;
+  }
+  .crypto-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    .crypto-icon {
+      height: 24px;
+      width: 24px;
+      background-color: grey;
+      border-radius: 50%;
+    }
+    .crypto-name {
+      font-size: $font_size-body-mobile;
+      font-family: $font_family-inter;
+      font-weight: $font_weight-body;
+    }
+    .crypto-symbol {
+      font-weight: $font_weight-body;
+      font-size: 0.6875rem;
+      color: #828282;
+    }
+    .crypto-price {
+      font-weight: $font_weight-medium;
+      font-size: $font_size-body-mobile;
+      font-family: $font_family-inter;
+    }
+  }
+}
+
+//SECOND SECTION
+
+.second_section {
+  color: black;
+  background-color: $color_white;
+  padding: 3.125rem 1rem 0;
+  text-align: center;
+  .second_section-main-text {
+    font-size: $font_size-h2-mobile;
+    padding-bottom: 1.875rem;
+  }
 }

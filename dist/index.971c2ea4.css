@@ -6,6 +6,7 @@
 }
 
 body {
+  color: #fff;
   background-color: #1b004e;
 }
 
@@ -34,6 +35,111 @@ body {
 #logo-text {
   color: #fff;
   font-family: Poppins, sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.hero_section {
+  margin: 0 1rem;
+}
+
+.hero_section #hero-heading-text {
+  color: #fff;
+  text-align: center;
+  margin-bottom: .875rem;
+  font-size: 1.5rem;
+}
+
+.hero_section #her-paragraph-text {
+  color: #fff;
+  text-align: center;
+  font-family: Inter, system-ui;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.hero_section #whitelist-button {
+  color: #fff;
+  background-color: #eb5757;
+  border: none;
+  border-radius: 50px;
+  margin: 1.25rem auto 50px;
+  padding: 7px 14px;
+  font-size: .875rem;
+  font-weight: 500;
+  display: block;
+}
+
+.hero_section #hero-crypto-prices-text {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.hero_table {
+  flex-direction: column;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.hero_table .table-text {
+  color: #fff;
+  font-family: Inter, system-ui;
+  font-size: .875rem;
+  font-weight: 500;
+}
+
+.hero_table .name-volume-container {
+  justify-content: space-between;
+  display: flex;
+}
+
+.hero_table .margin-bottom, .hero_table hr {
+  margin-bottom: 20px;
+}
+
+.hero_table .crypto-container {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.hero_table .crypto-container .crypto-icon {
+  background-color: gray;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+
+.hero_table .crypto-container .crypto-name {
+  font-family: Inter, system-ui;
+  font-size: .875rem;
+  font-weight: 300;
+}
+
+.hero_table .crypto-container .crypto-symbol {
+  color: #828282;
+  font-size: .6875rem;
+  font-weight: 300;
+}
+
+.hero_table .crypto-container .crypto-price {
+  font-family: Inter, system-ui;
+  font-size: .875rem;
+  font-weight: 500;
+}
+
+.second_section {
+  color: #000;
+  text-align: center;
+  background-color: #fff;
+  padding: 3.125rem 1rem 0;
+}
+
+.second_section .second_section-main-text {
+  padding-bottom: 1.875rem;
   font-size: 1.25rem;
 }
 /*# sourceMappingURL=index.971c2ea4.css.map */
