@@ -79,57 +79,52 @@ body {
   font-weight: bold;
 }
 
-.hero_table {
-  flex-direction: column;
-  padding-bottom: 3.125rem;
-  display: flex;
+.hero_crypto-table-grid {
+  grid-template-columns: repeat(2, 1fr);
+  display: grid;
 }
 
-.hero_table .table-text {
-  color: #fff;
+.hero_crypto-table-grid .crypto-table-name {
   font-family: Inter, system-ui;
   font-size: .875rem;
   font-weight: 500;
 }
 
-.hero_table .name-volume-container {
-  justify-content: space-between;
-  display: flex;
+.hero_crypto-table-grid .crypto-table-volume {
+  text-align: end;
+  margin-bottom: 1.25rem;
 }
 
-.hero_table .margin-bottom, .hero_table hr {
-  margin-bottom: 20px;
+.hero_crypto-table-grid hr {
+  grid-column: span 2;
+  margin-bottom: 1.25rem;
 }
 
-.hero_table .crypto-container {
+.hero_crypto-table-grid .coin-container {
   align-items: center;
   gap: 10px;
+  margin-bottom: 1.25rem;
   display: flex;
 }
 
-.hero_table .crypto-container .crypto-icon {
-  background-color: gray;
-  border-radius: 50%;
+.hero_crypto-table-grid .coin-container .coin-icon {
   width: 24px;
   height: 24px;
 }
 
-.hero_table .crypto-container .crypto-name {
-  font-family: Inter, system-ui;
-  font-size: .875rem;
-  font-weight: 300;
-}
-
-.hero_table .crypto-container .crypto-symbol {
-  color: #828282;
-  font-size: .6875rem;
-  font-weight: 300;
-}
-
-.hero_table .crypto-container .crypto-price {
+.hero_crypto-table-grid .coin-container .coin-text {
   font-family: Inter, system-ui;
   font-size: .875rem;
   font-weight: 500;
+}
+
+.hero_crypto-table-grid .coin-container .coin-symbol {
+  color: gray;
+  font-size: .6875rem;
+}
+
+.hero_crypto-table-grid .coin-price {
+  text-align: end;
 }
 
 .second_section {

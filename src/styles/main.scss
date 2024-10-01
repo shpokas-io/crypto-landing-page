@@ -78,53 +78,45 @@ body {
   }
 }
 
-//HERO-TABLE
-.hero_table {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 3.125rem;
-
-  .table-text {
-    color: white;
+//CRYPTO TABLE
+.hero_crypto-table-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  .crypto-table-name {
     font-size: $font_size-body-mobile;
     font-family: $font_family-inter;
     font-weight: $font_weight-medium;
   }
-  .name-volume-container {
-    display: flex;
-    justify-content: space-between;
-  }
-  .margin-bottom {
-    margin-bottom: 20px;
+  .crypto-table-volume {
+    text-align: end;
+    margin-bottom: 1.25rem;
   }
   hr {
-    margin-bottom: 20px;
+    grid-column: span 2;
+    margin-bottom: 1.25rem;
   }
-  .crypto-container {
+  .coin-container {
     display: flex;
-    gap: 10px;
     align-items: center;
-    .crypto-icon {
-      height: 24px;
+    gap: 10px;
+    margin-bottom: 1.25rem;
+
+    .coin-icon {
       width: 24px;
-      background-color: grey;
-      border-radius: 50%;
+      height: 24px;
     }
-    .crypto-name {
+    .coin-text {
       font-size: $font_size-body-mobile;
       font-family: $font_family-inter;
-      font-weight: $font_weight-body;
-    }
-    .crypto-symbol {
-      font-weight: $font_weight-body;
-      font-size: 0.6875rem;
-      color: #828282;
-    }
-    .crypto-price {
       font-weight: $font_weight-medium;
-      font-size: $font_size-body-mobile;
-      font-family: $font_family-inter;
     }
+    .coin-symbol {
+      font-size: 0.6875rem;
+      color: gray;
+    }
+  }
+  .coin-price {
+    text-align: end;
   }
 }
 
