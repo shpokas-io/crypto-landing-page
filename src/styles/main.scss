@@ -18,27 +18,80 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
   background-color: $color_background;
+  .logo_container {
+    display: flex;
+    align-items: center;
+  }
+  #logo_container-logo-image {
+    width: 26px;
+    height: 30px;
+  }
+  #logo-text {
+    color: $color_white;
+    font-family: $font_family-poppins;
+    font-size: $font_size-logo-mobile;
+    font-weight: $font_weight-bold;
+  }
 }
-.logo_container {
+//Burger menu
+.burger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.burger span {
+  width: 100%;
+  height: 3px;
+  border-radius: 10px;
+  background-color: $color_white;
+}
+
+.nav-links {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  height: 100%;
+  width: 200px;
+  background-color: $color_background;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  transition: right 0.3s ease;
 }
 
-#logo_container-logo-image {
-  width: 26px;
-  height: 30px;
-}
-#burger-menu {
-  width: 25px;
-  height: 12.64px;
+.nav-links a {
+  color: #fff;
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 1.2rem;
 }
 
-#logo-text {
+.nav-links a:hover {
+  color: #f39c12;
+}
+
+.nav-links.active {
+  right: 0;
+}
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
   color: $color_white;
-  font-family: $font_family-poppins;
-  font-size: $font_size-logo-mobile;
-  font-weight: $font_weight-bold;
+  font-size: 3rem;
+  cursor: pointer;
+}
+.close-btn:hover {
+  color: #f39c12;
 }
 
 //HERO SECTION
@@ -170,5 +223,13 @@ body {
     width: 202px;
     height: 215px;
     margin-bottom: 30px;
+  }
+}
+
+//MEDIA
+
+@media (max-width: 768px) {
+  .burger {
+    display: flex;
   }
 }
