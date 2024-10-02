@@ -97,6 +97,7 @@ body {
 
 .hero_section {
   background-color: #1b004e;
+  height: 100vh;
   padding: 0 1rem;
 }
 
