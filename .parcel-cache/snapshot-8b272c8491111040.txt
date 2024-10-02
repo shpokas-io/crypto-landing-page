@@ -742,7 +742,7 @@
 147/home/shpokas/Programming/Personal_bigger_projects/Cryptous-landing-page/node_modules/@parcel/optimizer-svgo/node_modules/csso/lib/replace/Value.js1727760336538943716 0
 113/home/shpokas/Programming/Personal_bigger_projects/Cryptous-landing-page/node_modules/svgo/plugins/removeXMLNS.js1727760336643946269 0
 112/home/shpokas/Programming/Personal_bigger_projects/Cryptous-landing-page/node_modules/react-refresh/package.json1727760336315938292 0
-83/home/shpokas/Programming/Personal_bigger_projects/Cryptous-landing-page/index.html1727869860842072282 0
+83/home/shpokas/Programming/Personal_bigger_projects/Cryptous-landing-page/index.html1727871118984519722 0
 131/home/shpokas/Programming/Personal_bigger_projects/Cryptous-landing-page/node_modules/caniuse-lite/data/features/css-paged-media.js1727760336723948215 0
 110/home/shpokas/Programming/Personal_bigger_projects/Cryptous-landing-page/node_modules/nth-check/lib/index.d.ts1727760336385939994 0
 133/home/shpokas/Programming/Personal_bigger_projects/Cryptous-landing-page/node_modules/@swc/helpers/cjs/_class_private_method_init.cjs1727760336856951450 0
@@ -2476,7 +2476,7 @@
 136/home/shpokas/Programming/Personal_bigger_projects/Cryptous-landing-page/node_modules/@parcel/optimizer-svgo/node_modules/csso/lib/clean1727760336538943716 1
 104/home/shpokas/Programming/Personal_bigger_projects/Cryptous-landing-page/src/images/large/background.png1727764043112425647 0
 156/home/shpokas/Programming/Personal_bigger_projects/Cryptous-landing-page/node_modules/@parcel/optimizer-svgo/node_modules/svgo/plugins/removeRasterImages.js1727760336533943594 0
-88/home/shpokas/Programming/Personal_bigger_projects/Cryptous-landing-page/src/js/index.js1727870640837926267 0
+88/home/shpokas/Programming/Personal_bigger_projects/Cryptous-landing-page/src/js/index.js1727870735167862669 0
 130/home/shpokas/Programming/Personal_bigger_projects/Cryptous-landing-page/node_modules/css-select/lib/pseudo-selectors/index.js.map1727760336504942889 0
 147/home/shpokas/Programming/Personal_bigger_projects/Cryptous-landing-page/node_modules/caniuse-lite/data/features/client-hints-dpr-width-viewport.js1727760336608945418 0
 131/home/shpokas/Programming/Personal_bigger_projects/Cryptous-landing-page/node_modules/caniuse-lite/data/features/background-sync.js1727760336522943326 0

@@ -33,8 +33,8 @@ window.onscroll = function () {
 
 //Scroll to top when button is clicked
 backToTopBtn.onclick = function () {
-  windows.scrollTo({
+  window.scrollTo({
     top: 0,
-    beahavior: "smooth", //for smooth scrolling
+    behavior: "smooth", //for smooth scrolling
   });
 };
