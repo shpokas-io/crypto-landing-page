@@ -240,6 +240,64 @@ body {
   margin-bottom: 30px;
 }
 
+.third-section .store-buttons {
+  justify-content: center;
+  gap: 1.25rem;
+  display: flex;
+}
+
+.third-section .store-imgs {
+  width: 6.25rem;
+  height: 2.1875rem;
+}
+
+.card-section {
+  background-color: #fff6fb;
+  padding: 3.125rem 1rem 0;
+}
+
+.card-section .card__section-container {
+  background-color: #fff;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  max-width: 343px;
+  margin: 0 auto 3.125rem;
+  display: block;
+}
+
+.card-section .card__section-title {
+  color: #000;
+  text-align: center;
+  margin-bottom: 3.125rem;
+  font-family: Poppins, sans-serif;
+  font-size: 1.5rem;
+}
+
+.card-section .card-img {
+  width: 100%;
+}
+
+.card-section .card__title-text {
+  color: #000;
+  padding: 1.5625rem .8rem .875rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.card-section .card__paragraph-text {
+  color: gray;
+  padding: 0 .8rem 1.75rem;
+  font-size: .75rem;
+}
+
+.card-section .card__footer-text-container {
+  color: gray;
+  justify-content: space-between;
+  padding: 0 .8rem 1.5625rem;
+  font-size: .875rem;
+  display: flex;
+}
+
 @media (width <= 768px) {
   .burger {
     display: flex;

@@ -225,8 +225,63 @@ body {
     height: 215px;
     margin-bottom: 30px;
   }
+  .store-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+  }
+  .store-imgs {
+    width: 6.25rem;
+    height: 2.1875rem;
+  }
 }
 
+//CARD SECTION
+.card-section {
+  padding: 3.125rem 1rem 0;
+  background-color: #fff6fb;
+
+  .card__section-container {
+    max-width: 343px;
+    display: block;
+    margin: 0 auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: $color_white;
+    margin-bottom: 3.125rem;
+  }
+  .card__section-title {
+    font-size: $font_size-h1-mobile;
+    font-family: $font_family-poppins;
+    color: black;
+    text-align: center;
+    margin-bottom: 3.125rem;
+  }
+  .card-img {
+    width: 100%;
+  }
+  .card__title-text {
+    color: black;
+    font-size: $font_size-p-mobile;
+    font-weight: $font_weight-medium;
+    padding: 1.5625rem 0.8rem 0.875rem;
+  }
+  .card__paragraph-text {
+    color: gray;
+    font-size: 0.75rem;
+    padding: 0 0.8rem 1.75rem;
+  }
+  .card__footer-text-container {
+    display: flex;
+    color: gray;
+    font-size: $font_size-body-mobile;
+    justify-content: space-between;
+    padding: 0 0.8rem 1.5625rem;
+  }
+}
+//SUBSCRIBE SECTION
+.subscribe__section {
+}
 //MEDIA
 
 @media (max-width: 768px) {
