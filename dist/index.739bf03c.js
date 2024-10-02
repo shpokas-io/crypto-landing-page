@@ -584,6 +584,11 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"ebWYT":[function(require,module,exports) {
+const burger = document.getElementById("burger");
+const navLinks = document.getElementById("nav-links");
+burger.addEventListener("click", ()=>{
+    navLinks.classList.toggle("active");
+});
 
 },{}]},["l9Mez","ebWYT"], "ebWYT", "parcelRequireb313")
 
