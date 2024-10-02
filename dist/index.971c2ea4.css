@@ -349,6 +349,45 @@ body {
   right: 5px;
 }
 
+.footer__section {
+  text-align: center;
+  background: linear-gradient(8deg, #4e0062, #220076);
+  padding: 3.125rem 1rem;
+}
+
+.footer__section .icons {
+  width: 32px;
+  height: 32px;
+}
+
+.footer__section a:hover .facebook {
+  content: url("facebook-hover.1dc74e13.svg");
+}
+
+.footer__section a:hover .instagram {
+  content: url("instagram-hover.856aac28.svg");
+}
+
+.footer__section a:hover .x {
+  content: url("x-hover.e047e00a.svg");
+}
+
+.footer__section a:hover .linkedin {
+  content: url("linkedin-hover.39f4134e.svg");
+}
+
+.footer__section .icon-container {
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: .8rem;
+  display: flex;
+}
+
+.footer__section .copyright-text {
+  color: gray;
+  font-size: .875rem;
+}
+
 @media (width <= 768px) {
   .burger {
     display: flex;

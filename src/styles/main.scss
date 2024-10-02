@@ -326,6 +326,39 @@ body {
   }
 }
 
+//FOOTER SECTION
+.footer__section {
+  background: linear-gradient(8deg, #4e0062, #220076);
+  padding: 3.125rem 1rem;
+  text-align: center;
+  .icons {
+    height: 32px;
+    width: 32px;
+  }
+  a:hover .facebook {
+    content: url("../images/icons/facebook-hover.svg");
+  }
+  a:hover .instagram {
+    content: url("../images/icons/instagram-hover.svg");
+  }
+  a:hover .x {
+    content: url("../images/icons/x-hover.svg");
+  }
+  a:hover .linkedin {
+    content: url("../images/icons/linkedin-hover.svg");
+  }
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+  }
+  .copyright-text {
+    font-size: $font_size-body-mobile;
+    color: gray;
+  }
+}
+
 //MEDIA
 
 @media (max-width: 768px) {
