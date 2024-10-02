@@ -253,7 +253,7 @@ body {
 
 .card-section {
   background-color: #fff6fb;
-  padding: 3.125rem 1rem 0;
+  padding: 3.125rem 1rem;
 }
 
 .card-section .card__section-container {
@@ -296,6 +296,57 @@ body {
   padding: 0 .8rem 1.5625rem;
   font-size: .875rem;
   display: flex;
+}
+
+.card-section .last {
+  margin-bottom: 0;
+}
+
+.subscribe__section {
+  text-align: center;
+  background-color: #1b004e;
+  padding: 3.125rem 1rem;
+}
+
+.subscribe__section .subscribe__section-title {
+  margin-bottom: .6rem;
+  font-size: 1.5rem;
+}
+
+.subscribe__section .subscribe-paragraph-text {
+  margin-bottom: 1.875rem;
+  font-family: Inter, system-ui;
+  font-size: .875rem;
+}
+
+.subscribe__section .form-wrapper {
+  width: 343px;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.subscribe__section .form-wrapper input {
+  color: #fff;
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  width: 100%;
+  padding: .5rem 1rem;
+}
+
+.subscribe__section .subscribe-btn {
+  color: #fff;
+  aspect-ratio: 1;
+  background-color: #eb5757;
+  border: none;
+  border-radius: 50px;
+  height: 80%;
+  padding: 0 1rem;
+  font-weight: 500;
+  position: absolute;
+  top: 10%;
+  right: 5px;
 }
 
 @media (width <= 768px) {

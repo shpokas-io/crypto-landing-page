@@ -238,7 +238,7 @@ body {
 
 //CARD SECTION
 .card-section {
-  padding: 3.125rem 1rem 0;
+  padding: 3.125rem 1rem;
   background-color: #fff6fb;
 
   .card__section-container {
@@ -278,10 +278,54 @@ body {
     justify-content: space-between;
     padding: 0 0.8rem 1.5625rem;
   }
+  .last {
+    margin-bottom: 0;
+  }
 }
 //SUBSCRIBE SECTION
 .subscribe__section {
+  background-color: $color_background;
+  padding: 3.125rem 1rem;
+  text-align: center;
+  .subscribe__section-title {
+    font-size: $font_size-h1-mobile;
+    margin-bottom: 0.6rem;
+  }
+  .subscribe-paragraph-text {
+    margin-bottom: 1.875rem;
+    font-size: $font_size-body-mobile;
+    font-family: $font_family-inter;
+  }
+  .form-wrapper {
+    width: 343px;
+    max-width: 100%;
+    position: relative;
+    margin: 0 auto;
+
+    input {
+      width: 100%;
+      background: none;
+      color: white;
+      border: 2px solid white;
+      border-radius: 50px;
+      padding: 0.5rem 1rem;
+    }
+  }
+  .subscribe-btn {
+    background-color: $color_buttons-borders-hover;
+    color: white;
+    border: none;
+    height: 80%;
+    border-radius: 50px;
+    aspect-ratio: 1;
+    position: absolute;
+    right: 5px;
+    top: 10%;
+    padding: 0 1rem;
+    font-weight: $font_weight-medium;
+  }
 }
+
 //MEDIA
 
 @media (max-width: 768px) {
