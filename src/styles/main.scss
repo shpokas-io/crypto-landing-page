@@ -19,26 +19,24 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: $color_background;
-}
-.logo_container {
-  display: flex;
-  align-items: center;
-}
-
-#logo_container-logo-image {
-  width: 26px;
-  height: 30px;
-}
-#burger-menu {
-  width: 25px;
-  height: 12.64px;
-}
-
-#logo-text {
-  color: $color_white;
-  font-family: $font_family-poppins;
-  font-size: $font_size-logo-mobile;
-  font-weight: $font_weight-bold;
+  .logo_container {
+    display: flex;
+    align-items: center;
+  }
+  #logo_container-logo-image {
+    width: 26px;
+    height: 30px;
+  }
+  #logo-text {
+    color: $color_white;
+    font-family: $font_family-poppins;
+    font-size: $font_size-logo-mobile;
+    font-weight: $font_weight-bold;
+  }
+  #burger-menu {
+    width: 25px;
+    height: 12.64px;
+  }
 }
 
 //HERO SECTION
