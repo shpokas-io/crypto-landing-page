@@ -9,6 +9,25 @@ body {
   color: #fff;
 }
 
+.back-to-top {
+  cursor: pointer;
+  z-index: 100;
+  background-color: #eb5757;
+  border: none;
+  border-radius: 50px;
+  width: 44px;
+  height: 44px;
+  font-size: 1.8rem;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.back-to-top:hover {
+  background-color: #ae3c3c;
+}
+
 .navigation_menu {
   background-color: #1b004e;
   justify-content: space-between;
@@ -97,7 +116,6 @@ body {
 
 .hero_section {
   background-color: #1b004e;
-  height: 100vh;
   padding: 0 1rem;
 }
 

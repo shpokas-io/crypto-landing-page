@@ -12,6 +12,25 @@ body {
   color: $color_white;
 }
 
+//Back to top button
+.back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: $color_buttons-borders-hover;
+  font-size: 1.8rem;
+  cursor: pointer;
+  height: 44px;
+  width: 44px;
+  border: none;
+  border-radius: 50px;
+  z-index: 100;
+}
+.back-to-top:hover {
+  background-color: $color_buttons-hover-darker;
+}
+
 //NAVIGATION
 .navigation_menu {
   padding: 2.631875rem 1rem;
@@ -98,7 +117,6 @@ body {
 .hero_section {
   padding: 0 1rem;
   background-color: $color_background;
-  height: 100vh;
   #hero-heading-text {
     font-size: $font_size-h1-mobile;
     color: $color_white;
