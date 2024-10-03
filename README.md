@@ -6,7 +6,7 @@
     Landing page | Figma MockUp | Fully Responsive
     <br />
     <br />
-    <a href="https://personal-dash-board-extension.netlify.app/">View Demo</a>
+    <a href="https://cryptous-webste.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/shpokas270/crypto-landing-page/issues">Report Bug</a>
     ·

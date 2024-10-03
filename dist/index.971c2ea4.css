@@ -492,6 +492,10 @@ body {
     padding: 1.6rem 8.5rem;
   }
 
+  .navigation_menu .nav-links {
+    background: none;
+  }
+
   .navigation_menu #logo_container-logo-image {
     width: 35px;
     height: 40px;
@@ -516,9 +520,10 @@ body {
     background-size: cover;
     justify-content: start;
     align-items: center;
-    min-height: 80vh;
+    min-height: 100vh;
     padding: 0 8.5rem;
     display: flex;
+    overflow: hidden;
   }
 
   .hero_section .hero_main-container {
@@ -549,13 +554,18 @@ body {
   }
 
   .hero_section .hero_image-container {
-    width: 600px;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
     height: 500px;
     margin-left: 5rem;
     display: flex;
   }
 
   .hero_section .hero_right-image {
+    object-fit: cover;
+    height: auto;
     margin-left: 18rem;
   }
 
