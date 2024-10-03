@@ -59,7 +59,7 @@ body {
   background: none;
   border: 2px solid #eb5757;
   border-radius: 50px;
-  padding: 1rem 1.8rem;
+  padding: .7rem 1.8rem;
   font-size: 1.1rem;
   display: none;
 }
@@ -126,11 +126,14 @@ body {
 
 .hero_section {
   background-color: #1b004e;
+  justify-content: center;
   padding: 0 1rem 3.125rem;
+  display: flex;
 }
 
 .hero_section .hero_main-container {
   text-align: center;
+  max-width: 375px;
 }
 
 .hero_section #hero-heading-text {
@@ -418,6 +421,137 @@ body {
 @media (width <= 765px) {
   .burger {
     display: flex;
+  }
+}
+
+@media (width >= 550px) {
+  .crypto__table-section #crypto-table-volume {
+    margin-bottom: 1.25rem;
+  }
+
+  .crypto__table-section #crypto-table-name {
+    font-size: 1.2rem;
+  }
+
+  .crypto__table-section .hero_crypto-table-grid .coin-icon {
+    width: 35px;
+    height: 35px;
+  }
+
+  .crypto__table-section .hero_crypto-table-grid .coin-text {
+    font-size: 1rem;
+  }
+
+  .crypto__table-section .hero_crypto-table-grid .coin-symbol {
+    font-size: .8rem;
+  }
+
+  .crypto__table-section .hero_crypto-table-grid .coin-price {
+    text-align: end;
+    font-size: 1.2rem;
+  }
+}
+
+@media (width >= 750px) {
+  .navigation_menu #logo_container-logo-image {
+    width: 35px;
+    height: 40px;
+  }
+
+  .navigation_menu #logo-text {
+    font-size: 1.5rem;
+  }
+
+  .navigation_menu .trade-btn {
+    display: flex;
+  }
+
+  .navigation_menu .trade-btn:hover {
+    background-color: #eb5757;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    position: static;
+  }
+
+  .close-btn, .burger {
+    display: none;
+  }
+}
+
+@media (width >= 1020px) {
+  .navigation_menu {
+    background-image: url("background.de8d4671.png");
+    padding: 1.6rem 8.5rem;
+  }
+
+  .navigation_menu #logo_container-logo-image {
+    width: 35px;
+    height: 40px;
+  }
+
+  .navigation_menu #logo-text {
+    font-size: 1.5rem;
+  }
+
+  .navigation_menu .trade-btn {
+    display: flex;
+  }
+
+  .navigation_menu .trade-btn:hover {
+    background-color: #eb5757;
+  }
+
+  .hero_section {
+    background-image: url("background.de8d4671.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: start;
+    min-height: 100vh;
+    padding: 4rem 8.5rem;
+    display: flex;
+  }
+
+  .hero_section .hero_main-container {
+    text-align: start;
+  }
+
+  .hero_section #hero-heading-text {
+    width: 500px;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+  }
+
+  .hero_section #hero-paragraph-text {
+    width: 420px;
+    margin-bottom: 2rem;
+    font-size: 1.125rem;
+  }
+
+  .hero_section #whitelist-button {
+    border-radius: 50px;
+    padding: .6rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .hero_section #whitelist-button:hover {
+    background-color: #ae3c3c;
+  }
+
+  .crypto__table-section {
+    padding: 5rem;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    position: static;
+  }
+
+  .close-btn {
+    display: none;
   }
 }
 /*# sourceMappingURL=index.971c2ea4.css.map */

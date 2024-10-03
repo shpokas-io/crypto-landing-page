@@ -56,7 +56,7 @@ body {
   .trade-btn {
     display: none;
     border: 2px solid $color_buttons-borders-hover;
-    padding: 1rem 1.8rem;
+    padding: 0.7rem 1.8rem;
     border-radius: 50px;
     font-size: 1.1rem;
     background: none;
@@ -126,8 +126,12 @@ body {
 .hero_section {
   background-color: $color_background;
   padding: 0 1rem 3.125rem;
+  display: flex;
+  justify-content: center;
+
   .hero_main-container {
     text-align: center;
+    max-width: 375px;
   }
   #hero-heading-text {
     font-size: 1.5rem;
@@ -393,5 +397,130 @@ body {
 @media (max-width: 765px) {
   .burger {
     display: flex;
+  }
+}
+
+@media (min-width: 550px) {
+  .crypto__table-section {
+    #crypto-table-volume {
+      margin-bottom: 1.25rem;
+    }
+    #crypto-table-name {
+      font-size: 1.2rem;
+    }
+    .hero_crypto-table-grid {
+      .coin-icon {
+        width: 35px;
+        height: 35px;
+      }
+      .coin-text {
+        font-size: 1rem;
+      }
+      .coin-symbol {
+        font-size: 0.8rem;
+      }
+      .coin-price {
+        text-align: end;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 750px) {
+  .navigation_menu {
+    #logo_container-logo-image {
+      width: 35px;
+      height: 40px;
+    }
+    #logo-text {
+      font-size: 1.5rem;
+    }
+    .trade-btn {
+      display: flex;
+
+      &:hover {
+        background-color: $color_buttons-borders-hover;
+      }
+    }
+  }
+  .nav-links {
+    position: static;
+    flex-direction: row;
+  }
+
+  .close-btn {
+    display: none;
+  }
+
+  .burger {
+    display: none;
+  }
+}
+
+@media (min-width: 1020px) {
+  .navigation_menu {
+    padding: 1.6rem 8.5rem;
+    background-image: url("../images/large/background.png");
+    #logo_container-logo-image {
+      width: 35px;
+      height: 40px;
+    }
+    #logo-text {
+      font-size: 1.5rem;
+    }
+    .trade-btn {
+      display: flex;
+
+      &:hover {
+        background-color: $color_buttons-borders-hover;
+      }
+    }
+  }
+  .hero_section {
+    background-image: url(../images/large/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: start;
+    padding: 4rem 8.5rem;
+    .hero_main-container {
+      text-align: start;
+    }
+    #hero-heading-text {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      width: 500px;
+    }
+    #hero-paragraph-text {
+      font-size: 1.125rem;
+      width: 420px;
+      margin-bottom: 2rem;
+    }
+    #whitelist-button {
+      padding: 0.6rem 2rem;
+      border-radius: 50px;
+      font-weight: $font_weight-bold;
+      font-size: 1rem;
+
+      &:hover {
+        background-color: $color_buttons-hover-darker;
+      }
+    }
+  }
+
+  .crypto__table-section {
+    padding: 5rem;
+  }
+
+  .nav-links {
+    position: static;
+    flex-direction: row;
+  }
+
+  .close-btn {
+    display: none;
   }
 }
