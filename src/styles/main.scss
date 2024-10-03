@@ -117,6 +117,10 @@ body {
 .hero_section {
   padding: 0 1rem;
   background-color: $color_background;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   #hero-heading-text {
     font-size: $font_size-h1-mobile;
     color: $color_white;
@@ -125,6 +129,7 @@ body {
   }
   #her-paragraph-text {
     font-size: $font_size-p-mobile;
+    width: 300px;
     font-family: $font_family-inter;
     font-weight: $font_weight-body;
     color: $color_white;
@@ -154,6 +159,7 @@ body {
 .hero_crypto-table-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  column-gap: 5rem;
   .crypto-table-name {
     font-size: $font_size-body-mobile;
     font-family: $font_family-inter;
@@ -227,6 +233,9 @@ body {
   background-color: $color_background;
   padding: 3.125rem 1rem;
   text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   .third-section-title {
     font-size: $font_size-h2-mobile;
     font-weight: $font_weight-bold;
@@ -234,6 +243,7 @@ body {
     margin-bottom: 0.625rem;
   }
   .third-section-description {
+    width: 300px;
     font-size: $font_size-body-mobile;
     font-family: $font_family-inter;
     margin-bottom: 30px;
@@ -379,8 +389,127 @@ body {
 
 //MEDIA
 
-@media (max-width: 768px) {
+@media (max-width: 765px) {
   .burger {
     display: flex;
   }
+}
+
+@media (min-width: 550px) {
+  #hero-heading-text {
+    max-width: 330px;
+  }
+
+  .navigation_menu {
+    padding: 2.631875rem 3rem;
+    #logo-text {
+      font-size: 28px;
+    }
+    #logo_container-logo-image {
+      width: 35px;
+      height: 35px;
+    }
+  }
+
+  .hero_section {
+    #hero-heading-text {
+      font-size: 28px;
+      margin-bottom: 1rem;
+    }
+    #her-paragraph-text {
+      font-size: 18px;
+      width: 350px;
+    }
+    #whitelist-button {
+      font-size: 1rem;
+    }
+    #hero-crypto-prices-text {
+      font-size: 22px;
+      padding-bottom: 2rem;
+    }
+  }
+
+  .hero_crypto-table-grid {
+    column-gap: 13rem;
+    .crypto-table-name {
+      font-size: 1rem;
+    }
+    .crypto-table-volume {
+      font-size: 1rem;
+    }
+
+    .coin-container {
+      gap: 1rem;
+      .coin-icon {
+        width: 30px;
+        height: 30px;
+      }
+      .coin-text {
+        font-size: 1rem;
+      }
+      .coin-symbol {
+        font-size: 0.8rem;
+      }
+    }
+    .coin-price {
+      font-size: 1.25rem;
+    }
+  }
+  .burger {
+    width: 33px;
+    height: 23px;
+  }
+  .nav-links a {
+    font-size: 1.5rem;
+  }
+  .close-btn {
+    font-size: 3.5rem;
+  }
+
+  .second_section {
+    padding: 3.125rem 1rem 0;
+    .second_section-main-text {
+      font-size: 1.375rem;
+    }
+    .card-icon {
+      width: 75px;
+      height: 75px;
+    }
+    .card-title-text {
+      font-size: 1.25rem;
+    }
+    .card-description {
+      margin-bottom: 50px;
+      font-size: 1rem;
+    }
+  }
+
+  .third-section {
+    .third-section-title {
+      font-size: 1.375rem;
+    }
+    .third-section-description {
+      font-size: 1rem;
+      width: 350px;
+    }
+    .store-imgs {
+      width: 8rem;
+      height: 3rem;
+    }
+  }
+
+  .card-section {
+    .card__section-title {
+      font-size: 1.75rem;
+    }
+    .card__title-text {
+      font-size: 1.125rem;
+    }
+    .card__paragraph-text {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media (min-width: 765px) {
 }
