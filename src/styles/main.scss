@@ -400,6 +400,12 @@ body {
   }
 }
 
+@media (max-width: 1020px) {
+  .hero_image-container {
+    display: none;
+  }
+}
+
 @media (min-width: 550px) {
   .crypto__table-section {
     #crypto-table-volume {
@@ -482,10 +488,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     justify-content: start;
-    padding: 4rem 8.5rem;
+    align-items: center;
+    padding: 0rem 8.5rem;
     .hero_main-container {
       text-align: start;
     }
@@ -509,6 +516,103 @@ body {
         background-color: $color_buttons-hover-darker;
       }
     }
+    .hero_image-container {
+      margin-left: 5rem;
+      width: 600px;
+      height: 500px;
+      display: flex;
+    }
+    .hero_right-image {
+      margin-left: 18rem;
+    }
+  }
+
+  .crypto__table-section {
+    background-color: $color_background;
+    padding: 0 1rem 3.125rem;
+
+    #hero-crypto-prices-text {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    #crypto-table-volume {
+      text-align: end;
+      margin-bottom: 1.25rem;
+    }
+    .hero_crypto-table-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      .coin-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 1.25rem;
+      }
+      .coin-icon {
+        width: 25px;
+        height: 25px;
+      }
+      .coin-text {
+        font-size: $font_size-body-mobile;
+        font-family: $font_family-inter;
+        font-weight: $font_weight-medium;
+      }
+      .coin-symbol {
+        font-size: 0.6875rem;
+        color: gray;
+      }
+      .coin-price {
+        text-align: end;
+      }
+      hr {
+        grid-column: span 2;
+        margin-bottom: 1.25rem;
+
+        &:last-child {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .crypto__table-section {
+    #crypto-table-volume {
+      margin-bottom: 1rem;
+    }
+    .hero_crypto-table-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      .coin-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 1.25rem;
+      }
+      .coin-icon {
+        width: 25px;
+        height: 25px;
+      }
+      .coin-text {
+        font-size: $font_size-body-mobile;
+        font-family: $font_family-inter;
+        font-weight: $font_weight-medium;
+      }
+      .coin-symbol {
+        font-size: 0.6875rem;
+        color: gray;
+      }
+      .coin-price {
+        text-align: end;
+      }
+      hr {
+        grid-column: span 2;
+        margin-bottom: 1.25rem;
+
+        &:last-child {
+          display: none;
+        }
+      }
+    }
   }
 
   .crypto__table-section {
@@ -522,5 +626,16 @@ body {
 
   .close-btn {
     display: none;
+  }
+
+  .second_section {
+    .second_section-main-text {
+      padding-bottom: 4rem;
+      font-size: 2rem;
+    }
+    .card-flex-wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
   }
 }

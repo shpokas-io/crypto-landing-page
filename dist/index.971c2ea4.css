@@ -424,6 +424,12 @@ body {
   }
 }
 
+@media (width <= 1020px) {
+  .hero_image-container {
+    display: none;
+  }
+}
+
 @media (width >= 550px) {
   .crypto__table-section #crypto-table-volume {
     margin-bottom: 1.25rem;
@@ -509,8 +515,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: start;
-    min-height: 100vh;
-    padding: 4rem 8.5rem;
+    align-items: center;
+    min-height: 80vh;
+    padding: 0 8.5rem;
     display: flex;
   }
 
@@ -541,6 +548,73 @@ body {
     background-color: #ae3c3c;
   }
 
+  .hero_section .hero_image-container {
+    width: 600px;
+    height: 500px;
+    margin-left: 5rem;
+    display: flex;
+  }
+
+  .hero_section .hero_right-image {
+    margin-left: 18rem;
+  }
+
+  .crypto__table-section {
+    background-color: #1b004e;
+    padding: 0 1rem 3.125rem;
+  }
+
+  .crypto__table-section #hero-crypto-prices-text {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .crypto__table-section #crypto-table-volume {
+    text-align: end;
+    margin-bottom: 1rem;
+  }
+
+  .crypto__table-section .hero_crypto-table-grid {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+  }
+
+  .crypto__table-section .hero_crypto-table-grid .coin-container {
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1.25rem;
+    display: flex;
+  }
+
+  .crypto__table-section .hero_crypto-table-grid .coin-icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .crypto__table-section .hero_crypto-table-grid .coin-text {
+    font-family: Inter, system-ui;
+    font-size: .875rem;
+    font-weight: 500;
+  }
+
+  .crypto__table-section .hero_crypto-table-grid .coin-symbol {
+    color: gray;
+    font-size: .6875rem;
+  }
+
+  .crypto__table-section .hero_crypto-table-grid .coin-price {
+    text-align: end;
+  }
+
+  .crypto__table-section .hero_crypto-table-grid hr {
+    grid-column: span 2;
+    margin-bottom: 1.25rem;
+  }
+
+  .crypto__table-section .hero_crypto-table-grid hr:last-child {
+    display: none;
+  }
+
   .crypto__table-section {
     padding: 5rem;
   }
@@ -552,6 +626,16 @@ body {
 
   .close-btn {
     display: none;
+  }
+
+  .second_section .second_section-main-text {
+    padding-bottom: 4rem;
+    font-size: 2rem;
+  }
+
+  .second_section .card-flex-wrapper {
+    justify-content: space-between;
+    display: flex;
   }
 }
 /*# sourceMappingURL=index.971c2ea4.css.map */
