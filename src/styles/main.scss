@@ -53,6 +53,15 @@ body {
     font-size: $font_size-logo-mobile;
     font-weight: $font_weight-bold;
   }
+  .trade-btn {
+    display: none;
+    border: 2px solid $color_buttons-borders-hover;
+    padding: 1rem 1.8rem;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    background: none;
+    color: $color_white;
+  }
 }
 //Burger menu
 .burger {
@@ -115,73 +124,57 @@ body {
 
 //HERO SECTION
 .hero_section {
-  padding: 0 1rem;
   background-color: $color_background;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 0 1rem 3.125rem;
+  .hero_main-container {
+    text-align: center;
+  }
   #hero-heading-text {
-    font-size: $font_size-h1-mobile;
-    color: $color_white;
-    text-align: center;
-    margin-bottom: 0.875rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
   }
-  #her-paragraph-text {
-    font-size: $font_size-p-mobile;
-    width: 300px;
+  #hero-paragraph-text {
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
     font-family: $font_family-inter;
-    font-weight: $font_weight-body;
-    color: $color_white;
-    text-align: center;
   }
+
   #whitelist-button {
-    color: $color_white;
-    background-color: $color_buttons-borders-hover;
-    font-weight: $font_weight-medium;
-    font-size: $font_size-body-mobile;
-    padding: 0.4375rem 0.875rem;
-    border-radius: 50px;
     border: none;
-    margin: 1.25rem auto 50px;
-    display: block;
-  }
-  #hero-crypto-prices-text {
-    font-size: $font_size-h2-mobile;
+    background-color: $color_buttons-borders-hover;
+    color: $color_white;
+    padding: 0.6rem 1rem;
+    border-radius: 50px;
     font-weight: $font_weight-bold;
-    text-align: center;
-    color: white;
-    padding-bottom: 1.875rem;
+    font-size: $font_size-body-mobile;
   }
 }
-
 //CRYPTO TABLE
-.hero_crypto-table-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 5rem;
-  .crypto-table-name {
-    font-size: $font_size-body-mobile;
-    font-family: $font_family-inter;
-    font-weight: $font_weight-medium;
+
+.crypto__table-section {
+  background-color: $color_background;
+  padding: 0 1rem 3.125rem;
+
+  #hero-crypto-prices-text {
+    text-align: center;
+    margin-bottom: 2rem;
   }
-  .crypto-table-volume {
+  #crypto-table-volume {
     text-align: end;
     margin-bottom: 1.25rem;
   }
-  hr {
-    grid-column: span 2;
-    margin-bottom: 1.25rem;
-  }
-  .coin-container {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 1.25rem;
-
+  .hero_crypto-table-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    .coin-container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 1.25rem;
+    }
     .coin-icon {
-      width: 24px;
-      height: 24px;
+      width: 25px;
+      height: 25px;
     }
     .coin-text {
       font-size: $font_size-body-mobile;
@@ -192,9 +185,17 @@ body {
       font-size: 0.6875rem;
       color: gray;
     }
-  }
-  .coin-price {
-    text-align: end;
+    .coin-price {
+      text-align: end;
+    }
+    hr {
+      grid-column: span 2;
+      margin-bottom: 1.25rem;
+
+      &:last-child {
+        display: none;
+      }
+    }
   }
 }
 
@@ -202,28 +203,29 @@ body {
 
 .second_section {
   color: black;
-  background-color: $color_white;
+  background-color: #fff6fb;
   padding: 3.125rem 1rem 0;
   text-align: center;
+
   .second_section-main-text {
     font-size: $font_size-h2-mobile;
     padding-bottom: 1.875rem;
   }
   .card-icon {
-    width: 65px;
-    height: 70px;
-    margin-bottom: 30px;
+    width: 75px;
+    height: 75px;
+    margin-bottom: 1rem;
   }
   .card-title-text {
     font-size: $font_size-h3-mobile;
     font-weight: $font_weight-bold;
     font-family: $font_family-inter;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
   }
   .card-description {
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
     font-size: $font_size-body-mobile;
-    line-height: 2;
+    line-height: 1.7;
   }
 }
 
@@ -236,17 +238,19 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+
   .third-section-title {
     font-size: $font_size-h2-mobile;
     font-weight: $font_weight-bold;
     font-family: $font_family-poppins;
-    margin-bottom: 0.625rem;
+    margin-bottom: 1rem;
+    max-width: 375px;
   }
   .third-section-description {
-    width: 300px;
+    max-width: 300px;
     font-size: $font_size-body-mobile;
     font-family: $font_family-inter;
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
   }
   .phone-img {
     width: 202px;
@@ -305,9 +309,6 @@ body {
     font-size: $font_size-body-mobile;
     justify-content: space-between;
     padding: 0 0.8rem 1.5625rem;
-  }
-  .last {
-    margin-bottom: 0;
   }
 }
 //SUBSCRIBE SECTION
@@ -393,123 +394,4 @@ body {
   .burger {
     display: flex;
   }
-}
-
-@media (min-width: 550px) {
-  #hero-heading-text {
-    max-width: 330px;
-  }
-
-  .navigation_menu {
-    padding: 2.631875rem 3rem;
-    #logo-text {
-      font-size: 28px;
-    }
-    #logo_container-logo-image {
-      width: 35px;
-      height: 35px;
-    }
-  }
-
-  .hero_section {
-    #hero-heading-text {
-      font-size: 28px;
-      margin-bottom: 1rem;
-    }
-    #her-paragraph-text {
-      font-size: 18px;
-      width: 350px;
-    }
-    #whitelist-button {
-      font-size: 1rem;
-    }
-    #hero-crypto-prices-text {
-      font-size: 22px;
-      padding-bottom: 2rem;
-    }
-  }
-
-  .hero_crypto-table-grid {
-    column-gap: 13rem;
-    .crypto-table-name {
-      font-size: 1rem;
-    }
-    .crypto-table-volume {
-      font-size: 1rem;
-    }
-
-    .coin-container {
-      gap: 1rem;
-      .coin-icon {
-        width: 30px;
-        height: 30px;
-      }
-      .coin-text {
-        font-size: 1rem;
-      }
-      .coin-symbol {
-        font-size: 0.8rem;
-      }
-    }
-    .coin-price {
-      font-size: 1.25rem;
-    }
-  }
-  .burger {
-    width: 33px;
-    height: 23px;
-  }
-  .nav-links a {
-    font-size: 1.5rem;
-  }
-  .close-btn {
-    font-size: 3.5rem;
-  }
-
-  .second_section {
-    padding: 3.125rem 1rem 0;
-    .second_section-main-text {
-      font-size: 1.375rem;
-    }
-    .card-icon {
-      width: 75px;
-      height: 75px;
-    }
-    .card-title-text {
-      font-size: 1.25rem;
-    }
-    .card-description {
-      margin-bottom: 50px;
-      font-size: 1rem;
-    }
-  }
-
-  .third-section {
-    .third-section-title {
-      font-size: 1.375rem;
-    }
-    .third-section-description {
-      font-size: 1rem;
-      width: 350px;
-    }
-    .store-imgs {
-      width: 8rem;
-      height: 3rem;
-    }
-  }
-
-  .card-section {
-    .card__section-title {
-      font-size: 1.75rem;
-    }
-    .card__title-text {
-      font-size: 1.125rem;
-    }
-    .card__paragraph-text {
-      font-size: 1rem;
-    }
-  }
-}
-
-@media (min-width: 765px) {
 }
