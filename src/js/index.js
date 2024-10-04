@@ -38,3 +38,50 @@ backToTopBtn.onclick = function () {
     behavior: "smooth", //for smooth scrolling
   });
 };
+
+fetch(
+  "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=10&page=1"
+)
+  .then((res) => res.json())
+  .then((data) => {
+    const bitcoinData = data.find((coin) => coin.id === "bitcoin");
+    console.log(bitcoinData);
+
+    if (bitcoinData) {
+      const cryptoTableSection = document.querySelector(
+        ".hero_crypto-table-grid"
+      );
+      cryptoTableSection.innerHTML = "";
+      const coinContainer = document.createElement("div");
+      coinContainer.classList.add("coin-container");
+
+      //create image el
+      const coinIcon = document.createElement("img");
+      coinIcon.src = bitcoinData.image;
+      coinIcon.alt = `${bitcoinData.name}logo`;
+      coinIcon.classList.add("'coin-icon','bitcoin-logo'");
+
+      // Create coin text element
+      const coinText = document.createElement("p");
+      coinText.classList.add("coin-text", "bitcoin-text");
+      coinText.innerHTML = `${
+        bitcoinData.name
+      } <span class="coin-symbol bitcoin-symbol">${bitcoinData.symbol.toUpperCase()}</span>`;
+
+      // Create price element
+      const coinPrice = document.createElement("p");
+      coinPrice.classList.add("coin-price");
+      coinPrice.innerText = `$${bitcoinData.current_price.toLocaleString()}`;
+
+      // Append elements to the container
+      coinContainer.appendChild(coinIcon);
+      coinContainer.appendChild(coinText);
+
+      // Append everything to the cryptoTableSection
+      cryptoTableSection.appendChild(coinContainer);
+      cryptoTableSection.appendChild(coinPrice);
+      cryptoTableSection.appendChild(document.createElement("hr")); // Add a horizontal line
+    } else {
+      console.log("Bitcoin data not found.");
+    }
+  });

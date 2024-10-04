@@ -499,6 +499,7 @@ body {
     overflow: hidden;
     .hero_main-container {
       text-align: start;
+      position: absolute;
     }
     #hero-heading-text {
       font-size: 2.5rem;
@@ -522,17 +523,19 @@ body {
     }
     .hero_image-container {
       margin-left: 5rem;
-      width: 100%;
+      width: 90%;
       max-width: 100%;
-      height: 500px;
       display: flex;
       justify-content: flex-end;
       align-items: center;
     }
     .hero_right-image {
+      position: relative;
       margin-left: 18rem;
       height: auto;
       object-fit: cover;
+      top: -70;
+      right: -400;
     }
   }
 
@@ -644,7 +647,7 @@ body {
     }
     .card-flex-wrapper {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-evenly;
     }
   }
 }
