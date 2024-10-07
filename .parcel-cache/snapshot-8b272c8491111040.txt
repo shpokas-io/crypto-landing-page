@@ -663,7 +663,7 @@
 108/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/is-number/package.json1727760335369915208 0
 121/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/htmlparser2/lib/WritableStream.d.ts1727760336376939775 0
 139/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/optimizer-svgo/node_modules/csso/CHANGELOG.md1727760336546943910 0
-105/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/facebook-hover.1dc74e13.svg1727963107541496803 0
+105/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/facebook-hover.1dc74e13.svg1728023551358545747 0
 111/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/csso/lib/replace/property1727760336575944616 1
 144/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/optimizer-svgo/node_modules/mdn-data/l10n/css.json1727760336352939192 0
 141/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/css-select/node_modules/domutils/lib/esm/feeds.d.ts.map1727760336393940189 0
@@ -674,7 +674,7 @@
 149/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/optimizer-svgo/node_modules/mdn-data/css/selectors.json1727760336453941648 0
 138/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/optimizer-svgo/node_modules/mdn-data/LICENSE1727760336162934570 0
 111/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/markdown-ansi/lib1727760336168934716 1
-93/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/src/styles/main.scss1728022479106335935 0
+93/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/src/styles/main.scss1728279993986500330 0
 112/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/css-select/lib/sort.js.map1727760336520943278 0
 129/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/optimizer-svgo/src/SVGOOptimizer.js1727760336233936297 0
 111/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/chalk/source/templates.js1727760336215935859 0
@@ -753,7 +753,7 @@
 119/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/semver/functions/compare-build.js1727760336271937221 0
 118/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/source-map-js/lib/source-node.js1727760336343938973 0
 105/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/js-yaml/lib/type.js1727760336462941867 0
-101/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/card-icon1.369e33b7.png1727963107546496840 0
+101/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/card-icon1.369e33b7.png1728023551434546190 0
 120/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/source-map-js/lib/source-node.d.ts1727760336396940262 0
 130/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@babel/highlight/node_modules/supports-color1727760336217935908 1
 117/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/source-map-js/lib/base64-vlq.js1727760336185935130 0
@@ -1091,7 +1091,7 @@
 116/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@swc/helpers/cjs/_ts_param.cjs1727760336887952204 0
 137/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@swc/helpers/src/_class_apply_descriptor_update.mjs1727760336956953882 0
 129/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@swc/helpers/_/_inherits_loose/package.json1727760336671946951 0
-99/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/index.739bf03c.js.map1727963107543496818 0
+99/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/index.739bf03c.js.map1728023551400545992 0
 116/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@swc/helpers/src/_decorate.mjs1727760336968954174 0
 137/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@swc/helpers/cjs/_iterable_to_array_limit_loose.cjs1727760336873951864 0
 96/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/semver/bin1727760336450941575 1
@@ -1117,7 +1117,7 @@
 125/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@swc/helpers/_/_iterable_to_array_limit1727760336699947631 1
 110/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/supports-color/readme.md1727760336208935689 0
 113/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@swc/helpers/_/_ts_metadata1727760336785949723 1
-105/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/instagram-icon.36e3148e.svg1727963107541496803 0
+105/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/instagram-icon.36e3148e.svg1728023551443546242 0
 105/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/fill-range/index.js1727760336164934619 0
 129/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@swc/helpers/_/_check_private_redeclaration1727760336460941818 1
 134/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/package-manager/test/fixtures/packages/a1727760336534943618 1
@@ -1880,7 +1880,7 @@
 123/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/caniuse-lite/data/features/flexbox.js1727760336858951499 0
 111/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/lmdb/dependencies/lz4/lib1727760336741948653 1
 131/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/cosmiconfig/dist/canUseDynamicImport.d.ts.map1727760336354939240 0
-99/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/security.0982e5e4.png1727963107601497245 0
+99/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/security.0982e5e4.png1728023551369545811 0
 97/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/.bin/parcel1727760341919072864 0
 105/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/is-extglob/index.js1727760336196935397 0
 120/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@swc/helpers/src/_to_primitive.mjs1727760336987954636 0
@@ -2093,7 +2093,7 @@
 114/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/posthtml-parser/changelog.md1727760336250936711 0
 122/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/caniuse-lite/dist/unpacker/region.js1727760337023955509 0
 135/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/package-manager/src/promiseFromProcess.js1727760336492942597 0
-100/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/index.971c2ea4.css.map1727963296162896932 0
+100/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/index.971c2ea4.css.map1728023551423546126 0
 128/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/caniuse-lite/data/features/font-feature.js1727760336861951572 0
 117/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/svgo/plugins/removeEmptyText.js1727760336620945710 0
 117/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/csso/node_modules/css-tree/data1727760336849951280 1
@@ -2108,7 +2108,7 @@
 131/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/caniuse-lite/data/features/mutation-events.js1727760336980954466 0
 145/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/optimizer-svgo/node_modules/svgo/plugins/plugins.js1727760336495942670 0
 120/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/css-tree/lib/syntax/node/Atrule.js1727760336670946926 0
-104/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/appstore-icon.923e012e.png1727963107601497245 0
+104/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/appstore-icon.923e012e.png1728023551371545823 0
 130/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/caniuse-lite/data/features/css-page-break.js1727760336722948191 0
 132/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/caniuse-lite/data/features/css-font-stretch.js1727760336693947485 0
 134/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@swc/helpers/cjs/_class_apply_descriptor_get.cjs1727760336850951304 0
@@ -2163,7 +2163,7 @@
 145/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/mdb_stat.11727760336463941891 0
 150/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/optimizer-svgo/node_modules/css-select/lib/sort.d.ts.map1727760336409940578 0
 120/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/workers/lib/core-worker.js1727760336349939119 0
-106/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/instagram-hover.856aac28.svg1727963107604497267 0
+106/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/instagram-hover.856aac28.svg1728023551444546248 0
 136/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/caniuse-lite/data/features/css-overflow-overlay.js1727760336720948142 0
 150/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@swc/helpers/_/_create_for_of_iterator_helper_loose/package.json1727760336616945613 0
 113/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/csso/cjs/replace/Atrule.cjs1727760336349939119 0
@@ -2259,7 +2259,7 @@
 111/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/source-map-js/lib/util.js1727760336361939410 0
 143/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/mtest6.c1727760336626945856 0
 79/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/src/js1727937981230661491 1
-105/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/playstore-icon.5faa7a7d.png1727963107533496744 0
+105/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/playstore-icon.5faa7a7d.png1728023551358545747 0
 117/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/core/test/utils.test.js1727760336765949237 0
 136/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/runtime-js/src/helpers/worker/js-loader.js1727760336453941648 0
 109/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/src/images/icons/instagram-hover.svg1727868210125768671 0
@@ -2268,7 +2268,7 @@
 129/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/markdown-ansi/test/markdown-ansi.js1727760336240936467 0
 135/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/css-tree/cjs/syntax/node/index-parse-selector.cjs1727760336551944032 0
 149/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/core/test/fixtures/invalid-source-not-file/package.json1727760336828950769 0
-101/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/background.de8d4671.png1727963107619497378 0
+101/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/background.de8d4671.png1728023551450546283 0
 139/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/optimizer-svgo/node_modules/csso/lib/index.js1727760336504942889 0
 164/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/optimizer-htmlnano/node_modules/svgo/plugins/addClassesToSVGElement.js1727760336340938900 0
 116/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/svgo/plugins/preset-default.js1727760336600945223 0
@@ -2303,7 +2303,7 @@
 129/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@babel/highlight/node_modules/chalk/license1727760336218935932 0
 109/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/domutils/lib/feeds.d.ts1727760336368939581 0
 135/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/optimizer-svgo/node_modules/mdn-data/l10n1727760336291937708 1
-96/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/index.971c2ea4.css1727963296161896925 0
+96/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/index.971c2ea4.css1728023551423546126 0
 111/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/htmlnano/lib/htmlnano.mjs1727760336613945540 0
 121/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/caniuse-lite/data/features/mpeg4.js1727760336976954369 0
 107/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/src/images/icons/facebook-icon.svg1727867924799291393 0
@@ -2325,7 +2325,7 @@
 142/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/optimizer-svgo/node_modules/csso/lib/restructure1727760336535943643 1
 76/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/src1727766899977481466 1
 117/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/dom-serializer/lib/esm/index.js1727760336248936662 0
-109/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/phone-illustration.4e486255.png1727963107546496840 0
+109/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/phone-illustration.4e486255.png1728023551435546195 0
 108/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/logger/LICENSE1727760336173934838 0
 117/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/caniuse-lite/data/regions/KP.js1727760336941953518 0
 97/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/cosmiconfig1727760336452941624 1
@@ -2400,7 +2400,7 @@
 136/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/runtime-js/src/helpers/node/html-loader.js1727760336412940651 0
 138/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/csso/node_modules/css-tree/cjs/syntax/node/index.cjs1727760336562944299 0
 121/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/svgo/plugins/removeScriptElement.js1727760336632946002 0
-104/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/cryptous-logo.eab8ac6c.png1727963107602497253 0
+104/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/cryptous-logo.eab8ac6c.png1728023551371545823 0
 126/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/utility-types/dist/functional-helpers.js1727760336198935446 0
 127/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/caniuse-lite/data/features/wbr-element.js1727760337076956792 0
 161/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/package-manager/test/fixtures/has-foo/node_modules/foo/package.json1727760336522943326 0
@@ -2415,7 +2415,7 @@
 169/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/optimizer-htmlnano/node_modules/csso/lib/restructure/4-restructShorthand.js1727760336268937148 0
 122/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/caniuse-lite/data/features/beacon.js1727760336533943594 0
 105/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/lmdb/dist/index.cjs1727760336646946342 0
-88/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/src/js/index.js1728023733637596537 0
+88/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/src/js/index.js1728279962792797609 0
 118/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/transformer-json/LICENSE1727760336172934813 0
 138/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/caniuse-lite/data/features/link-rel-modulepreload.js1727760336948953688 0
 131/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/caniuse-lite/data/features/css-unset-value.js1727760336752948920 0
@@ -2456,12 +2456,12 @@
 137/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@babel/highlight/node_modules/color-name/.npmignore1727760336195935373 0
 126/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/caniuse-lite/data/features/css-shapes.js1727760336738948580 0
 147/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/optimizer-svgo/node_modules/css-select/lib/types.d.ts1727760336457941745 0
-104/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/linkedin-icon.13d673b3.svg1727963107604497267 0
+104/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/linkedin-icon.13d673b3.svg1728023551417546091 0
 119/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/css-tree/cjs/syntax/node/Rule.cjs1727760336619945686 0
 117/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/caniuse-lite/data/regions/MH.js1727760336970954223 0
 128/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/transformer-react-refresh-wrap/src1727760336310938170 1
 117/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/caniuse-lite/data/regions/CF.js1727760336584944834 0
-98/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/x-hover.e047e00a.svg1727963107527496700 0
+98/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/x-hover.e047e00a.svg1728023551417546091 0
 139/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@swc/helpers/_/_async_generator_delegate/package.json1727760336396940262 0
 177/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/core/test/fixtures/plugins/node_modules/parcel-transformer-bad-engines/package.json1727760336840951061 0
 107/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/src/images/icons/appstore-icon.png1727859551555532769 0
@@ -2510,12 +2510,12 @@
 137/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@swc/helpers/src/_iterable_to_array_limit_loose.mjs1727760336977954393 0
 117/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/caniuse-lite/data/regions/GD.js1727760336873951864 0
 105/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/facebook-hover.b9c630c7.svg1727961464235495859 0
-88/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/index.html1727963107541496803 0
+88/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/index.html1728023561787606448 0
 134/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/caniuse-lite/data/features/css-cascade-layers.js1727760336660946683 0
 135/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/utils/test/input/sourcemap/source-root.js1727760336623945783 0
 132/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/core/lib/requests/AssetGraphRequest.js1727760336507942961 0
 130/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@swc/helpers/esm/_assert_this_initialized.js1727760336897952447 0
-101/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/card-icon2.81182373.png1727963107605497275 0
+101/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/card-icon2.81182373.png1728023551372545829 0
 109/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/chokidar/esm/handler.js1727760404931354411 0
 124/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/caniuse-lite/data/features/fontface.js1727760336867951718 0
 105/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/events/test1727760336318938364 1
@@ -2529,7 +2529,7 @@
 127/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/transformer-posthtml/package.json1727760336262937003 0
 82/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/README.md1727961715535475548 0
 119/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/caniuse-lite/data/features/let.js1727760336945953615 0
-95/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/index.739bf03c.js1727963107527496700 0
+95/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/index.739bf03c.js1728023551398545980 0
 142/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/CHANGES1727760336211935762 0
 135/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/caniuse-lite/data/features/link-rel-preconnect.js1727760336948953688 0
 104/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/cryptous-logo.3b837a5e.png1727961469071533774 0
@@ -2544,7 +2544,7 @@
 127/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@swc/helpers/src/_array_without_holes.mjs1727760336950953736 0
 96/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/index.c361f673.css1727961469134534268 0
 133/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@swc/helpers/esm/_class_private_field_update.js1727760336907952691 0
-105/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/linkedin-hover.39f4134e.svg1727963107541496803 0
+105/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/linkedin-hover.39f4134e.svg1728023551358545747 0
 131/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/caniuse-lite/data/features/urlsearchparams.js1727760337064956502 0
 115/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/optimizer-css/LICENSE1727760336172934813 0
 151/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/optimizer-htmlnano/node_modules/svgo/plugins/prefixIds.js1727760336500942791 0
@@ -2761,7 +2761,7 @@
 140/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/caniuse-lite/data/features/css-indeterminate-pseudo.js1727760336702947704 0
 122/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/ordered-binary/assets/powers-dre.png1727760336347939070 0
 163/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/syntax/pseudo/matches.js1727760336641946221 0
-101/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/card-icon3.941bb12e.png1727963107545496832 0
+101/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/card-icon3.941bb12e.png1728023551360545759 0
 149/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/sample-bdb.txt1727760336754948969 0
 131/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@swc/helpers/_/_class_private_field_loose_key1727760336552944056 1
 107/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/msgpackr/benchmark.md1727760336603945296 0
@@ -2963,7 +2963,7 @@
 110/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/domelementtype/readme.md1727760336284937537 0
 124/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/caniuse-lite/data/features/css-zoom.js1727760336758949067 0
 149/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/sample-mdb.txt1727760336756949018 0
-103/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/bitcoin-icon.594451b6.png1727963107533496744 0
+103/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/bitcoin-icon.594451b6.png1728023561779606401 0
 105/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/lmdb/src/cursor.cpp1727760336654946537 0
 165/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/syntax/node/Declaration.js1727760336548943959 0
 104/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/logger/src1727760336216935884 1
@@ -3398,7 +3398,7 @@
 157/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/css-select/node_modules/entities/lib/esm/generated/decode-data-xml.d.ts1727760336531943545 0
 114/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/transformer-json/lib1727760336188935202 1
 126/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/caniuse-lite/data/features/ogg-vorbis.js1727760337000954953 0
-102/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/reliability.7fdd70dd.png1727963107533496744 0
+102/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/reliability.7fdd70dd.png1728023551358545747 0
 131/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/caniuse-lite/data/features/background-sync.js1727760336522943326 0
 116/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/nth-check/lib/compile.d.ts.map1727760336278937392 0
 161/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/source-map/parcel_sourcemap_node/artifacts/index.linux-x64-gnu.node1727760336687947340 0
@@ -4286,7 +4286,7 @@
 128/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/utils/test/input/config/empty.json1727760336638946148 0
 105/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/callsites/readme.md1727760336208935689 0
 118/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/immutable/dist/immutable.js.flow1727760404934354463 0
-97/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/change.db80090b.png1727963107543496818 0
+97/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/change.db80090b.png1728023551430546166 0
 128/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/utils/test/input/config/empty.toml1727760336735948507 0
 107/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/optimizer-css1727760336253936784 1
 111/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/htmlnano/lib/htmlnano.cjs1727760336327938583 0
@@ -5599,7 +5599,7 @@
 125/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/csso/node_modules/mdn-data/CHANGELOG.md1727760336487942475 0
 94/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/csso/lib1727760336611945491 1
 121/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/lightningcss-linux-x64-musl/LICENSE1727760336148934230 0
-77/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist1727963296162896932 1
+77/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist1728023561787606448 1
 124/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/caniuse-lite/data/features/datalist.js1727760336786949747 0
 102/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/csso/lib/replace1727760336609945442 1
 151/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/optimizer-htmlnano/node_modules/csso/lib/replace/index.js1727760336509943010 0
@@ -5882,7 +5882,7 @@
 129/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@parcel/package-manager/test/fixtures/empty1727760336511943059 1
 112/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/utility-types/CHANGELOG.md1727760336302937976 0
 104/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/json5/package.json1727760336374939726 0
-104/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/facebook-icon.46e0d363.svg1727963107541496803 0
+104/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/facebook-icon.46e0d363.svg1728023551443546242 0
 112/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/utility-types/package.json1727760336250936711 0
 109/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/utility-types/README.md1727760336315938292 0
 142/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/@swc/helpers/_/_check_private_redeclaration/package.json1727760336463941891 0
@@ -5919,7 +5919,7 @@
 143/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/htmlnano/docs/versioned_docs/version-1.1.1/050-modules.md1727760336579944713 0
 128/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/css-select/lib/pseudo-selectors/aliases.js1727760336256936857 0
 148/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/htmlnano/docs/versioned_docs/version-1.1.1/010-introduction.md1727760336562944299 0
-97/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/x-icon.a1e9f6a9.svg1727963107527496700 0
+97/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/x-icon.a1e9f6a9.svg1728023551357545741 0
 118/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/htmlnano/docs/docs/030-config.md1727760336571944518 0
 130/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/csso/node_modules/css-tree/lib/syntax/config1727760336847951231 1
 103/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/csso/dist/csso.js1727760336571944518 0
@@ -5932,7 +5932,7 @@
 129/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/htmlnano/lib/modules/collapseWhitespace.mjs1727760336602945272 0
 120/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/htmlnano/lib/modules/minifySvg.cjs1727760336388940067 0
 121/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/htmlnano/lib/modules/minifyUrls.mjs1727760336626945856 0
-103/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/illustration.9c769f20.png1727963107604497267 0
+103/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/dist/illustration.9c769f20.png1728023551359545753 0
 119/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/htmlnano/lib/modules/minifyJs.cjs1727760336381939897 0
 112/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/csso/node_modules/mdn-data1727760336490942548 1
 129/home/shpokas/programming/personal_bigger_projects/cryptous-landing-page/node_modules/htmlnano/lib/modules/collapseWhitespace.cjs1727760336270937197 0

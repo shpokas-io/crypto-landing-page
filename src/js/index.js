@@ -59,7 +59,7 @@ fetch(
       const coinIcon = document.createElement("img");
       coinIcon.src = bitcoinData.image;
       coinIcon.alt = `${bitcoinData.name}logo`;
-      coinIcon.classList.add("'coin-icon','bitcoin-logo'");
+      coinIcon.classList.add("coin-icon");
 
       // Create coin text element
       const coinText = document.createElement("p");

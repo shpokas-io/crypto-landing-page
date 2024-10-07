@@ -623,7 +623,7 @@ fetch("https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=mark
         const coinIcon = document.createElement("img");
         coinIcon.src = bitcoinData.image;
         coinIcon.alt = `${bitcoinData.name}logo`;
-        coinIcon.classList.add("'coin-icon','bitcoin-logo'");
+        coinIcon.classList.add("coin-icon");
         // Create coin text element
         const coinText = document.createElement("p");
         coinText.classList.add("coin-text", "bitcoin-text");
