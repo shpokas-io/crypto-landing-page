@@ -42,7 +42,7 @@
 
 ## About The Project
 
-Fully responsive landing page project from figma design
+Fully responsive landing page project from Figma design
 
 - Responsive layout mobile | tablet | dekstop
 - Crypto data from CoinGecko Api
@@ -70,7 +70,7 @@ Fully responsive landing page project from figma design
 <li><s>Tablet layout</s></li>
 <li><s>Back to top button</s></li>
 <li><s>Hamburger-menu</s></li>
-<li>Dekstop layout</li>
+<li>Desktop layout</li>
 <li>Fetch coin data from CoinGeckoApi</li>
 <li>Filter coins</li>
 <li>Rebuild using REACT </li>
