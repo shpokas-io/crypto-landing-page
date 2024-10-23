@@ -48,7 +48,7 @@ Fully responsive landing page project from Figma design
 - Crypto data from CoinGecko Api
 - From Figma to code
 
-<img src="./img/Screenshot_bg.png" width="800px" />
+<img src="./src/images/large/screenshot.png" style="width:800px" />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
